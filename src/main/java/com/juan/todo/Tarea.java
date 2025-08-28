@@ -21,7 +21,7 @@ public class Tarea {
 	
 	public void MostrarTareas() {
 		for(String i : tareas.keySet()) {
-			System.out.println("Tarea: "+i+"- Categoria: "+tareas.get(i).getPrioridad());
+			System.out.println("Tarea: "+i+"- Categoria: "+tareas.get(i).name()));
 		}
 			
 	}
