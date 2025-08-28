@@ -13,6 +13,8 @@ public class Usuario {
 		this.lista = lista;
 	}
 	
-	
+	public void mostrar_mis_tareas() {
+		lista.MostrarTareas();
+	}
 	
 }
